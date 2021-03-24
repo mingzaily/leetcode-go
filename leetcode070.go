@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
 // 斐波那契
@@ -39,12 +38,7 @@ func climbStairs3(n int) int {
 }
 
 func main() {
-	t := time.Now()
+	//fmt.Println(climbStairs(50)) 太耗时了
 	fmt.Println(climbStairs2(50))
-	elapsed := time.Since(t)
-	fmt.Println("app elapsed:", elapsed)
-	t2 := time.Now()
 	fmt.Println(climbStairs3(50))
-	elapsed2 := time.Since(t2)
-	fmt.Println("app elapsed:", elapsed2)
 }
