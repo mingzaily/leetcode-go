@@ -22,6 +22,5 @@ func removeElement(nums []int, val int) int {
 
 func main() {
 	test := []int{0, 1, 2, 2, 3, 0, 4, 2}
-	fmt.Println(removeElement(test, 2))
-	fmt.Println(test)
+	fmt.Println(removeElement(test, 2), test)
 }
